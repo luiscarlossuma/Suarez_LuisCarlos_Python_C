@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'libros',
 ]
 
 MIDDLEWARE = [
@@ -76,11 +77,11 @@ WSGI_APPLICATION = 'proyecto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'open311', # Nombre de base de datos
+        'NAME': 'django',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'Karslipk69',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '3307',
     }
 }
 
